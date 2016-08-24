@@ -5,9 +5,7 @@ set -e
 echo "---> Running data migration..."
 dotnet ef database update
 
-ll bin/
-ll bin/Debug
-ll bin/Debug/netcoreapp1.0/
+ls bin/
 
 echo "---> Running application ..."
 dotnet run
